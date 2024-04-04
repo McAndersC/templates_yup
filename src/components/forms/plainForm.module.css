@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.container textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.container button {
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "templates_yup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node -r dotenv/config ./src/lib/db/seed/seeddb.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "mongoose": "^8.0.3",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.2",
+    "yup": "^1.4.0"
+  }
+}
